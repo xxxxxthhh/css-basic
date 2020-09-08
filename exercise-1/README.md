@@ -1,8 +1,18 @@
+<!--
+ * @Author: Kyle Xu
+ * @Date: 2020-09-05 22:48:41
+ * @LastEditors: Kyle Xu
+ * @LastEditTime: 2020-09-08 16:02:48
+ * @Blog: http://kylexu.cn
+ * @Github: https://github.com/xxxxxthhh
+ * @Mail: kyle_x@foxmail.com
+ * @Description:  // add ans，Q3 not so clear
+-->
 ## 需求说明
 
 ### 完成下列选择题，请将答案写到每题后面括号里
 
-1.在下列选择器中，哪一个代表 section class 里面的所有 title class? ( )
+1.在下列选择器中，哪一个代表 section class 里面的所有 title class? (A)
 
 A <lable>.section .title {}</lable>  
 B <lable>.section.title {}</lable>  
@@ -10,7 +20,7 @@ C <lable>.section, .title {}</lable>
 D <lable>.section > .title {}</lable>  
 
 
-2.在下列选择器中，哪一个代表 section class 内部紧邻的 title class? ( )
+2.在下列选择器中，哪一个代表 section class 内部紧邻的 title class? (D)
 
 A <lable>.section .title {}</lable>  
 B <lable>.section.title {}</lable>   
@@ -18,7 +28,7 @@ C <lable>.section, .title {}</lable>
 D <lable>.section > .title {}</lable>  
 
 
-3.在下列选择器中，哪一个代表同一个元素同时拥有 section 和 title 两个class? ( )
+3.在下列选择器中，哪一个代表同一个元素同时拥有 section 和 title 两个class? (B)
 
 A <lable>.section .title {}</lable>  
 B <lable>.section.title {}</lable>   
@@ -27,16 +37,16 @@ D <lable>.section > .title {}</lable>
 
 
 
-4.在下列选择器中，哪一个代表 section 和 title 两个class 设置相同样式? ( )
+4.在下列选择器中，哪一个代表 section 和 title 两个class 设置相同样式? (C)
 
 A <lable>.section .title {}</lable>  
-B <lable>.section.title {}</lable>   
-C <lable>.section, .title {}</lable>   
-D <lable>.section > .title {}</lable>   
+B <lable>.section.title {}</lable>
+C <lable>.section, .title {}</lable>
+D <lable>.section > .title {}</lable>
 
 
 
-5.在下列CSS选择器中，优先级从高到低是：( )
+5.在下列CSS选择器中，优先级从高到低是：(2)
 ```
 <div class="section">
     <h1 id="title" class="title">title</h1>

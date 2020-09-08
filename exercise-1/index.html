@@ -1,3 +1,13 @@
+<!--
+ * @Author: Kyle Xu
+ * @Date: 2020-09-05 22:48:41
+ * @LastEditors: Kyle Xu
+ * @LastEditTime: 2020-09-08 16:03:09
+ * @Blog: http://kylexu.cn
+ * @Github: https://github.com/xxxxxthhh
+ * @Mail: kyle_x@foxmail.com
+ * @Description:  // write some test
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +15,20 @@
     <title>练习-1：css selector</title>
     <style>
        /* you can test your css at here */
+       .section, .title {
+           color: aqua;
+       }
+       
     </style>
 </head>
 <body>
     <div class="section">
         <h1 id="title" class="title">title</h1>
+        <!-- <h1 id="title" class="title">title</h1> -->
+        <h1 id="title" class="section">title</h1>
+        <div>
+            <h1 id="title" class="title">title</h1>
+        </div>
     </div>
 </body>
 </html>
